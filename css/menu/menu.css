@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(238, 147, 73, 0.582);
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+img {
+  width: 100%;
+}
+
+/* Links for website*/
+nav > a {
+  font-style: italic;
+  text-align: center;
+}
+
+a:link {
+  font-weight: bold;
+  font-size: medium;
+}
+
+a:visited {
+  font-size: small;
+  color: rgba(93, 160, 247, 0.959);
+}
+
+/*above are links for website */
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.index_h1 {
+  display: grid;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  background-color: rgba(255, 0, 0, 0.301);
+  text-align: start;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.background_color {
+  transition: all 1s ease-in-out;
+}
+
+.background_color:hover {
+  box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.377);
+}
+
+/* above us for menu picture hover */
+#section_one {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+div {
+  padding: 10px;
+}
+div > img {
+  width: 100%;
+  height: 40vh;
+}
+
+body {
+  margin: 15px;
+}/*# sourceMappingURL=menu.css.map */

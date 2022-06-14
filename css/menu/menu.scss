@@ -1,0 +1,52 @@
+@use"../general";
+@use "../header";
+
+
+
+
+.background_color {
+
+    transition: all 1s ease-in-out;
+
+}
+
+
+
+
+.background_color:hover {
+    box-shadow: 10px 10px 10px rgba(10, 10, 10, 0.377);
+}
+
+/* above us for menu picture hover */
+
+
+
+
+#section_one {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+
+
+div {
+
+    padding: 10px;
+
+    >img {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+
+
+
+body {
+
+    margin: 15px;
+
+}
